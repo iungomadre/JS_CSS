@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&family=Fira+Sans:ital,wght@1,500&family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Akshar',
+        sans-serif;
+    font-family: 'Fira Sans',
+        sans-serif;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin-top: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main button {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    border: black solid 1px;
+    font-weight: 500;
+}
+
+.container {
+    display: inline-flex;
+    padding: 10px
+}
+
+.container button {
+    border: none;
+    font-size: xx-large;
+    padding: 0 10px 0 10px;
+}
+
+.counter {
+    font-size: xx-large;
+    padding: 0 10px 0 10px;
+    color: black;
+}
+
+main h4 {
+    margin: 0;
+}
